@@ -12,7 +12,6 @@ gulp.task('webpack',function(){
         .pipe(named())
         .pipe(gulpWebpack(webpackConfig,webpack))
         .pipe(gulp.dest('dist'))
-        .pipe(gulp.dest(''))
         .pipe(browserSync.reload({stream:true}));
 });
 
