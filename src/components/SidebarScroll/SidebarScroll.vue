@@ -2,7 +2,7 @@
     <div class="slideout">
         <nav id="menu" class="menu">
                 <header class="menu-header">
-                    <span class="menu-header-title">Meow<img src="/src/assets/logo.png" alt="logo" style="width:100%"/></span>
+                    <span class="menu-header-title">Meow<img src="../../../src/assets/logo.png" alt="logo" style="width:100%"/></span>
                 </header>
             <section class="menu-section">
                 <h3 class="menu-section-title">文档</h3>
@@ -75,7 +75,7 @@
 
 <style>
     @import "./SidebarScroll.css";
-    @import "/node_modules/hamburgers/dist/hamburgers.min.css";
-    @import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
-    @import "/node_modules/bootstrap/dist/css/bootstrap-theme.min.css";
+    @import "../../../node_modules/hamburgers/dist/hamburgers.min.css";
+    @import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+    @import "../../../node_modules/bootstrap/dist/css/bootstrap-theme.min.css";
 </style>

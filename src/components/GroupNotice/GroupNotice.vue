@@ -9,6 +9,7 @@
         </div>
 </template>
 <style>
+    @import "GroupNotice.css";
 </style>
 <script>
     export default{
