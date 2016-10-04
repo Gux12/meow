@@ -2,10 +2,9 @@
     <div>
         <h1 id="scrollspy" class="page-header">文档交流 <small>Document Exchange in Group</small></h1>
         <div class="bs-callout bs-callout-warning">
-            <h4>可能需要额外的定位May require additional positioning</h4>
-            <p>在正常的文档流中，通过 CSS 为下拉菜单进行定位。这就意味着下拉菜单可能会由于设置了 <code>overflow</code> 属性的父元素而被部分遮挡或超出视口（viewport）的显示范围。如果出现这种问题，请自行解决。</p>
+            <h4>小组的文档交流可以在下面进行</h4>
+            <p>小组成员可以上传自己需要共享的文件，其他小组成员可以在其上下载查看</p>
         </div>
-        <div class="bs-example">
             <nav id="navbar-example2" class="navbar navbar-default navbar-static" role="navigation">
                 <div class="container-fluid">
                     <div class="navbar-header">
@@ -49,7 +48,6 @@
                 </p>
             </div>
         </div>
-    </div>
 </template>
 <style>
 </style>

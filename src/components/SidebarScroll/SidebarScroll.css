@@ -112,15 +112,14 @@
      * Header
      */
     .panel-header {
-        margin: 120px auto 55px;
+        margin: 20px auto 15px;
     }
 
     .title {
-        font-size: 3.2em;
         line-height: 1em;
         margin: 0 0 15px;
-        color: #4B5;
-        font-weight: 400;
+        color: #428bca;
+        font-weight: 1000;
     }
 
     /**

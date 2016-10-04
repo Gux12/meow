@@ -1,5 +1,5 @@
 <template>
-    <div class="slideout">
+    <div class="slideout fluid-container">
         <nav id="menu" class="menu">
                 <header class="menu-header">
                     <span class="menu-header-title">Meow<img src="../../../src/assets/logo.png" alt="logo" style="width:100%"/></span>
@@ -22,9 +22,10 @@
                         <span class="hamburger-inner"></span>
                     </span>
                 </button>
-                <h1 class="title">Meow.Tsinghua</h1>
+
             </header>
             <div class="container">
+                <h1 class="title">Meow.Tsinghua</h1>
                 <!--<GroupIntroduction/>-->
                 <!--<GroupNotice/>-->
                 <!--<GroupDocumentExchange/>-->
@@ -36,6 +37,11 @@
                 </router-view>
             </div>
         </main>
+        <footer class="bs-docs-footer" role="contentinfo">
+            <div class="container">
+                <p>设计来源 <a href="http://v3.bootcss.com/" target="_blank">@bootstrap</a> 制作者 <a href="https://gux12.github.io/" target="_blank">@guxiang</a>。</p>
+            </div>
+        </footer>
     </div>
 </template>
 
@@ -57,14 +63,29 @@
                 'tolerance': 100,
                 'side': 'right'
             });
-            document.querySelector('.js-slideout-toggle').addEventListener('click', function() {
-                $('.js-slideout-toggle').toggleClass('is-active');
-                slideout.toggle();
+            $('.js-slideout-toggle').click(function() {
+                if ($(this).hasClass('is-active')){
+                    slideout.close();
+                    $(this).removeClass('is-active');
+                }else {
+                    slideout.open();
+                    $(this).addClass('is-active');
+                }
+
             });
 
-            document.querySelector('.menu').addEventListener('click', function(eve) {
-                if (eve.target.nodeName === 'A') { slideout.close(); $('.js-slideout-toggle').removeClass('is-active');}
+            $('.menu').click(function(eve) {
+                if (eve.target.nodeName === 'A') {
+                    slideout.close();
+                    $('.js-slideout-toggle').removeClass('is-active');
+                }
             });
+            slideout.on('beforeclose',function () {
+                $('.js-slideout-toggle').removeClass('is-active');
+            })
+            slideout.on('beforeopen',function () {
+                $('.js-slideout-toggle').addClass('is-active');
+            })
         },
 //        components:{
 //            'GroupIntroduction': GroupIntroduction,
