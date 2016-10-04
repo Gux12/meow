@@ -43,9 +43,9 @@
     /*}*/
 
     body,
-    /*.panel {*/
-        /*background-color: #fff;*/
-    /*}*/
+    .panel {
+        background-color: #fff;
+    }
 
     .menu {
         background-color: #1D1F20;
@@ -104,7 +104,6 @@
     }
 
     .panel {
-        text-align: center;
         padding-top: 0px;
         min-height: 100%;
     }

@@ -5,14 +5,13 @@
                     <span class="menu-header-title">Meow<img src="../../../src/assets/logo.png" alt="logo" style="width:100%"/></span>
                 </header>
             <section class="menu-section">
-                <h3 class="menu-section-title">文档</h3>
+                <h3 class="menu-section-title">菜单</h3>
                 <ul class="menu-section-list">
-                    <li><a href="https://github.com/mango/slideout#installation" target="_blank">简介</a></li>
-                    <li><a href="https://github.com/mango/slideout#usage" target="_blank">公告栏</a></li>
-                    <li><a href="https://github.com/mango/slideout#api" target="_blank">档案共享</a></li>
-                    <li><a href="https://github.com/mango/slideout#npm-scripts" target="_blank">学习交流</a></li>
-                    <li><a href="https://github.com/mango/slideout#npm-scripts" target="_blank">项目管理</a></li>
-                    <li><a href="https://github.com/mango/slideout#npm-scripts" target="_blank">小组日常</a></li>
+                    <li><router-link to="/introduction">简介</router-link></li>
+                    <li><router-link to="/notice">公告栏</router-link></li>
+                    <li><router-link to="/document">文档共享</router-link></li>
+                    <li><router-link to="/management">项目管理</router-link></li>
+                    <li><router-link to="/daily">小组日常</router-link></li>
                 </ul>
             </section>
         </nav>
@@ -26,11 +25,16 @@
                 <h1 class="title">Meow.Tsinghua</h1>
             </header>
             <div class="container">
-                <GroupIntroduction/>
-                <GroupNotice/>
-                <GroupDocumentExchange/>
+                <!--<GroupIntroduction/>-->
+                <!--<GroupNotice/>-->
+                <!--<GroupDocumentExchange/>-->
+                <router-view
+                        class="view"
+                        keep-alive
+                        transition
+                        transition-mode="out-in">
+                </router-view>
             </div>
-
         </main>
     </div>
 </template>
@@ -39,9 +43,6 @@
     import Vue from "vue"
     import slideOut from "slideout"
     import $ from "jquery"
-    import GroupIntroduction from "../GroupIntroduction/GroupIntroduction.vue"
-    import GroupNotice from "../GroupNotice/GroupNotice.vue"
-    import GroupDocumentExchange from "../GroupDocumentExchange/GroupDocumentExchange.vue"
     export default {
         data () {
             return {
@@ -65,15 +66,16 @@
                 if (eve.target.nodeName === 'A') { slideout.close(); $('.js-slideout-toggle').removeClass('is-active');}
             });
         },
-        components:{
-            'GroupIntroduction': GroupIntroduction,
-            'GroupNotice': GroupNotice,
-            'GroupDocumentExchange': GroupDocumentExchange,
-        }
+//        components:{
+//            'GroupIntroduction': GroupIntroduction,
+//            'GroupNotice': GroupNotice,
+//            'GroupDocumentExchange': GroupDocumentExchange,
+//        }
     }
 </script>
 
 <style>
+    @import "../../assets/css/docs.min.css";
     @import "./SidebarScroll.css";
     @import "../../../node_modules/hamburgers/dist/hamburgers.min.css";
     @import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
