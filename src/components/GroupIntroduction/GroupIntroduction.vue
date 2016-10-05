@@ -3,7 +3,7 @@
         <h1 id="scrollspy" class="page-header">小组介绍 <small>Introduction</small></h1>
         <div class="bs-callout bs-callout-info">
             <h4>Meow</h4>
-            <p>喵，拼音<code>miāo</code> 部首：<code>口</code> ，象声词，用来形容猫的叫声，例如：喵，喵，猫来了。</p>
+            <p>喵，拼音<code>miāo</code> 部首：<code>口</code> ，象声词，用来形容猫的叫声，例如：喵，喵，喵，猫来了。</p>
         </div>
         <div class="bs-docs-section">
             <div id="gux-carousel-example-captions" class="carousel slide" data-ride="carousel">
