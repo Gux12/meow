@@ -13,21 +13,21 @@
                     <li data-target="#gux-carousel-example-captions" data-slide-to="2" class="active"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
-                    <div class="item active" style="height:480px;overflow:hidden;">
+                    <div class="item active" style="overflow:hidden;">
                         <img src="./assets/img/WechatIMG1.jpeg" data-holder-rendered="true">
                         <div class="carousel-caption">
                             <h3>9月30日 星期五</h3>
                             <p>今天进行了激烈的讨论</p>
                         </div>
                     </div>
-                    <div class="item" style="height:480px;overflow:hidden;">
+                    <div class="item" style="overflow:hidden;">
                         <img src="./assets/img/WechatIMG1.jpeg" data-holder-rendered="true">
                         <div class="carousel-caption">
                             <h3>9月30日 星期五</h3>
                             <p>今天进行了激烈的讨论</p>
                         </div>
                     </div>
-                    <div class="item" style="height:480px;overflow:hidden;">
+                    <div class="item" style="overflow:hidden;">
                         <img src="./assets/img/WechatIMG1.jpeg" data-holder-rendered="true">
                         <div class="carousel-caption">
                             <h3>9月30日 星期五</h3>
