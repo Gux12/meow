@@ -3,14 +3,17 @@
         <h1 id="scrollspy" class="page-header">小组介绍 <small>Introduction</small></h1>
         <div class="bs-callout bs-callout-info">
             <h4>Meow</h4>
-            <p>喵，拼音<code>miāo</code> 部首：<code>口</code> ，象声词，用来形容猫的叫声，例如：喵，喵，喵，猫来了。</p>
+            <p>喵，拼音<code>miāo</code> 部首：<code>口</code> ，象声词，用来形容猫的叫声，例如：喵，喵，猫来了。<br>组名不仅表示我们都喜欢猫🐱，更表明了我们小组像猫一样敏锐和细心。</p>
+            <h4>我们是谁？</h4>
+            <p>我们一群富有活力，充满梦想，热爱计算机尤其是软件工程的年轻人。我们追求技术巅峰，挑战思维极限，创意和灵感是我们最宝贵的财富。<br>我们没有非常精湛高超的技术，但我们有刻苦钻研的精神。我们没有庞大的成员阵容，但我们有团结友爱的心。<br>我们取长补短，互帮互助，我们虽然不是什么高手，但我们有着一颗对技术严谨，且好奇的心！</p>
         </div>
         <div class="bs-docs-section">
             <div id="gux-carousel-example-captions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#gux-carousel-example-captions" data-slide-to="0" class=""></li>
                     <li data-target="#gux-carousel-example-captions" data-slide-to="1" class=""></li>
-                    <li data-target="#gux-carousel-example-captions" data-slide-to="2" class="active"></li>
+                    <li data-target="#gux-carousel-example-captions" data-slide-to="2" class=""></li>
+                    <li data-target="#gux-carousel-example-captions" data-slide-to="3" class="active"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
                    <div class="item active" style="height:640px;overflow:hidden;">
