@@ -58,6 +58,17 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="thumbnail">
+                    <div style="height:480px;overflow:hidden"><img data-src="holder.js/100%" src="./assets/collaborations/nanyixuan.jpeg" data-holder-rendered="true" style="width: 100%; display: block;">
+                    </div>
+                    <div class="caption">
+                        <h3>南艺璇</h3>
+                        <p>自硕161班，CIMS所，师从柴跃廷老师。曾和顾老师一同为柴老师的新一代电子商务平台设计和开发项目做研究，努力学习产品经理、美工和码农的技能，之后将把重点转向前端开发，希望和大家共同学习</p>
+                        <p><a href="#" class="btn btn-danger" role="button">喜欢 <span class="badge">186</span></a> <a href="#" class="btn btn-default" role="button">不喜欢 <span class="badge">3</span></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="thumbnail">
                     <div style="height:480px;overflow:hidden"><img data-src="holder.js/100%" src="./assets/collaborations/guxiang.jpeg" data-holder-rendered="true" style="width: 100%; display: block;">
                     </div>
                     <div class="caption">
@@ -85,7 +96,18 @@
                     <div class="caption">
                         <h3>张学恒(Michael Zhang)</h3>
                         <p>清华大学自动化系研究生，专业方向控制理论与控制工程；喜欢游泳、读书;项目中主要负责任务分配、整体协调、小组介绍模块</p><br>
-                        <p><a href="#" class="btn btn-danger" role="button">喜欢 <span class="badge">127</span></a> <a href="#" class="btn btn-default" role="button">不喜欢 <span class="badge">5</span></a></p>
+                        <p><a href="#" class="btn btn-danger" role="button">喜欢 <span class="badge">135</span></a> <a href="#" class="btn btn-default" role="button">不喜欢 <span class="badge">5</span></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div style="height:480px;overflow:hidden"><img data-src="holder.js/100%" src="./assets/collaborations/xuzhiyong.jpeg" data-holder-rendered="true" style="width: 100%; display: block;">
+                    </div>
+                    <div class="caption">
+                        <h3>徐支勇(Zyong Xu)</h3>
+                        <p>清华大学自动化系研究生，专业方向企业信息化系统集成，喜好不学习加运动，立志于成为不写代码的程序员</p><br>
+                        <p><a href="#" class="btn btn-danger" role="button">喜欢 <span class="badge">130</span></a> <a href="#" class="btn btn-default" role="button">不喜欢 <span class="badge">2</span></a></p>
                     </div>
                 </div>
             </div>
