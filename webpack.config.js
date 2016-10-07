@@ -11,9 +11,15 @@ module.exports = {
     // publicPath: '/dist/',
     filename: '[name].build.js?[hash]'
   },
+<<<<<<< Updated upstream
   // resolveLoader: {
   //   root: path.join(__dirname, 'node_modules'),
   // },
+=======
+  //resolveLoader: {
+  //  root: path.join(__dirname, 'node_modules'),
+  //},
+>>>>>>> Stashed changes
   module: {
     loaders: [
       {
