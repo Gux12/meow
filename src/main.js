@@ -4,6 +4,7 @@ import App from './components/SidebarScroll/SidebarScroll.vue'
 import GroupIntroduction from "./components/GroupIntroduction/GroupIntroduction.vue"
 import GroupNotice from "./components/GroupNotice/GroupNotice.vue"
 import GroupDocumentExchange from "./components/GroupDocumentExchange/GroupDocumentExchange.vue"
+import GroupDaily from "./components/GroupDaily/GroupDaily.vue"
 
 //安装路由器
 Vue.use(VueRouter);
@@ -13,7 +14,8 @@ const routes = [
   { path: '', component: GroupIntroduction },
   { path: '/introduction', component: GroupIntroduction },
   { path: '/notice', component: GroupNotice },
-  { path: '/document', component: GroupDocumentExchange}
+  { path: '/document', component: GroupDocumentExchange},
+  { path: '/daily', component: GroupDaily}
 ]
 
 //声明路由器实例
