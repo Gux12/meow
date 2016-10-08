@@ -10,6 +10,7 @@
                     <li><router-link to="/introduction">简介</router-link></li>
                     <li><router-link to="/notice">公告栏</router-link></li>
                     <li><router-link to="/document">文档共享</router-link></li>
+                    <li><router-link to="/study">课后心得</router-link></li>
                     <li><router-link to="/management">项目管理</router-link></li>
                     <li><router-link to="/daily">小组日常</router-link></li>
                 </ul>

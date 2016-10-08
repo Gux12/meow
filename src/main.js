@@ -5,6 +5,7 @@ import GroupIntroduction from "./components/GroupIntroduction/GroupIntroduction.
 import GroupNotice from "./components/GroupNotice/GroupNotice.vue"
 import GroupDocumentExchange from "./components/GroupDocumentExchange/GroupDocumentExchange.vue"
 import GroupDaily from "./components/GroupDaily/GroupDaily.vue"
+import GroupStudy from "./components/GroupStudy/GroupStudy.vue"
 
 //安装路由器
 Vue.use(VueRouter);
@@ -15,6 +16,7 @@ const routes = [
   { path: '/introduction', component: GroupIntroduction },
   { path: '/notice', component: GroupNotice },
   { path: '/document', component: GroupDocumentExchange},
+  { path: '/study', component: GroupStudy},
   { path: '/daily', component: GroupDaily}
 ]
 
