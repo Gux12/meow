@@ -48,11 +48,11 @@
                                     </div>
 
                  <a class="list-group-item notice-item" data-target="#xzy-notice6">
-                     <h4 class="list-group-item-heading">小组第一次会晤与项目分析 <span class="label label-default">9月20日</span> <span class="label label-danger">重要 </span> </h4>
+                     <h4 class="list-group-item-heading">小组第一次会晤与项目分析 <span class="label label-default">9月24日</span> <span class="label label-danger">重要 </span> </h4>
                      <p class="list-group-item-text">初次面，主楼719见</p>
                  </a>
                  <div class="panel-body xzy-notice-body" id="xzy-notice6">
-                    <div class="col-md-6 col-sm-6 col-xs-6">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp相应作业和课件网络学堂都有，大家之前先仔细阅读项目介绍及相应的文档。拟定于20日晚上9点主楼719进行
+                    <div class="col-md-6 col-sm-6 col-xs-6">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp相应作业和课件网络学堂都有，大家之前先仔细阅读项目介绍及相应的文档。拟定于24日晚上9点主楼719进行
                                                                                                               第一次成员见面与任务分析，大家记得准时到啊！<br></div>
                                     <div class="col-md-6 col-sm-6 col-xs-6"><img src="./img/notice6.jpg" class="xzy-img"></div>
                                     </div>
