@@ -16,49 +16,29 @@
                     <li data-target="#gux-carousel-example-captions" data-slide-to="3" class="active"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
-<<<<<<< Updated upstream
                     <div class="item active" style="overflow:hidden;">
-                        <img src="./assets/img/WechatIMG4.jpeg" data-holder-rendered="true">
-=======
-                    <div class="item active" style="height:640px;overflow:hidden;">
                         <img src="./assets/img/WechatIMG4.jpg" data-holder-rendered="true">
->>>>>>> Stashed changes
                         <div class="carousel-caption">
                             <h3>9月28日 星期三</h3>
                             <p>今天对需求分析进行了激烈的讨论，并确定了组内分工</p>
                         </div>
                     </div>
-<<<<<<< Updated upstream
                     <div class="item" style="overflow:hidden;">
-                        <img src="./assets/img/WechatIMG2.jpeg" data-holder-rendered="true">
-=======
-                    <div class="item" style="height:640px;overflow:hidden;">
                         <img src="./assets/img/WechatIMG2.jpg" data-holder-rendered="true">
->>>>>>> Stashed changes
                         <div class="carousel-caption">
                             <h3>9月30日 星期五</h3>
                             <p>今天对STORY进行分解与描述</p>
                         </div>
                     </div>
-<<<<<<< Updated upstream
                     <div class="item" style="overflow:hidden;">
-                        <img src="./assets/img/WechatIMG1.jpeg" data-holder-rendered="true">
-=======
-                    <div class="item" style="height:640px;overflow:hidden;">
                         <img src="./assets/img/WechatIMG1.jpg" data-holder-rendered="true">
->>>>>>> Stashed changes
                         <div class="carousel-caption">
                             <h3>9月30日 星期五</h3>
                             <p>今天确定了Product Backlog</p>
                         </div>
                     </div>
-<<<<<<< Updated upstream
                     <div class="item" style="overflow:hidden;">
-                        <img src="./assets/img/WechatIMG3.jpeg" data-holder-rendered="true">
-=======
-                    <div class="item" style="height:640px;overflow:hidden;">
                         <img src="./assets/img/WechatIMG3.jpg" data-holder-rendered="true">
->>>>>>> Stashed changes
                         <div class="carousel-caption">
                             <h3>9月30日 星期五</h3>
                             <p>今天确定了Product Backlog</p>
@@ -78,11 +58,7 @@
         <div class="row">
             <div class="col-xs-6 col-sm-6 col-md-4">
                 <div class="thumbnail">
-<<<<<<< Updated upstream
-                    <div class="gux-image-container"><img class="img-responsive img-rounded" src="./assets/collaborations/nanyixuan.jpeg" data-holder-rendered="true">
-=======
-                    <div style="height:480px;overflow:hidden"><img data-src="holder.js/100%" src="./assets/collaborations/nanyixuan.jpg" data-holder-rendered="true" style="width: 100%; display: block;">
->>>>>>> Stashed changes
+                    <div class="gux-image-container"><img class="img-responsive img-rounded" src="./assets/collaborations/nanyixuan.jpg" data-holder-rendered="true">
                     </div>
                     <div class="caption">
                         <h3>南艺璇</h3>
@@ -93,11 +69,7 @@
             </div>
             <div class="col-xs-6 col-sm-6 col-md-4">
                 <div class="thumbnail">
-<<<<<<< Updated upstream
-                    <div class="gux-image-container"><img class="img-responsive" src="./assets/collaborations/guxiang.jpeg" data-holder-rendered="true">
-=======
-                    <div style="height:480px;overflow:hidden"><img data-src="holder.js/100%" src="./assets/collaborations/guxiang.jpg" data-holder-rendered="true" style="width: 100%; display: block;">
->>>>>>> Stashed changes
+                    <div class="gux-image-container"><img class="img-responsive" src="./assets/collaborations/guxiang.jpg" data-holder-rendered="true">
                     </div>
                     <div class="caption">
                         <h3>顾乡(Gavin Gu)</h3>
