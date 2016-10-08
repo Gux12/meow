@@ -76,7 +76,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="col-xs-6 col-sm-6 col-md-4">
                 <div class="thumbnail">
 <<<<<<< Updated upstream
                     <div class="gux-image-container"><img class="img-responsive img-rounded" src="./assets/collaborations/nanyixuan.jpeg" data-holder-rendered="true">
@@ -91,7 +91,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="col-xs-6 col-sm-6 col-md-4">
                 <div class="thumbnail">
 <<<<<<< Updated upstream
                     <div class="gux-image-container"><img class="img-responsive" src="./assets/collaborations/guxiang.jpeg" data-holder-rendered="true">
@@ -106,7 +106,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="col-xs-6 col-sm-6 col-md-4">
                 <div class="thumbnail">
                     <div class="gux-image-container"><img class="img-responsive" src="./assets/collaborations/puyudi.jpeg" data-holder-rendered="true">
                     </div>
@@ -117,7 +117,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="col-xs-6 col-sm-6 col-md-4">
                 <div class="thumbnail">
                     <div class="gux-image-container"><img class="img-responsive" src="./assets/collaborations/zhangxueheng.jpg" data-holder-rendered="true">
                     </div>
@@ -128,7 +128,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="col-xs-6 col-sm-6 col-md-4">
                 <div class="thumbnail">
                     <div class="gux-image-container"><img class="img-responsive" src="./assets/collaborations/xuzhiyong.jpeg" data-holder-rendered="true">
                     </div>

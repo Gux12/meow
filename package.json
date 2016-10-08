@@ -8,10 +8,12 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "blueimp-file-upload-node": "^2.1.0",
     "bootstrap": "^3.3.7",
     "hamburgers": "^0.5.0",
     "holderjs": "^2.9.4",
     "jquery": "^3.1.0",
+    "jquery.ui.widget": "^1.10.3",
     "pug": "^2.0.0-beta6",
     "slideout": "^0.1.12",
     "vue": "^2.0.0-rc.1",
