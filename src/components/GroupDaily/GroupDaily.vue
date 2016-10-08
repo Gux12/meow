@@ -75,12 +75,24 @@
 
         <h1 class="page-header">事件记录</h1>
         <div class="bs-callout bs-callout-info">
-            <h4>2003年10月12日</h4>
-            <p>利比里亚宣布与中华民国中断外交关系，重新与中华人民共和国建交。</p>
+            <h4>2016年9月28日</h4>
+            <p>小组召开第一次讨论会议，进行了需求分析，明确了网站构架。同时进行了组内分工。</p>
         </div>
         <div class="bs-callout bs-callout-info">
-            <h4>2005年10月12日</h4>
-            <p>神舟六号载人飞船在酒泉卫星发射中心发射升空，成为中国第一艘执行多人多天任务的载人飞船。</p>
+            <h4>2016年9月30日</h4>
+            <p>小组进行了SCRUM会议，对STORY进行了分解和描述。</p>
+        </div>
+        <div class="bs-callout bs-callout-info">
+            <h4>2016年10月1日-10月5日</h4>
+            <p>小组成员分头学习前端技术，编写各部分网站，通过github管理项目工程。小组成员在群里相互交流技术问题。</p>
+        </div>
+        <div class="bs-callout bs-callout-info">
+            <h4>2016年10月6日</h4>
+            <p>小组进行了SCRUM会议，对目前进度进行了简短汇报和总结，讨论网站的改进和完善，同时开始准备Pre。</p>
+        </div>
+        <div class="bs-callout bs-callout-info">
+            <h4>2016年10月8日</h4>
+            <p>小组进行了最终总结会议，对网站进行了完整演示，完成pre报告并进行演示。</p>
         </div>
     </div>
         

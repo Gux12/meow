@@ -83,7 +83,7 @@
 
             $("#gux-fileupload-submit-btn").click(()=>{
                 var filename = $(this).find("#gux-fileupload-file").val();
-                if(filename != 'undefine' && filename == ''){
+                if(filename != 'undefine' && filename != ''){
                     var formData = new FormData($("#gux-fileupload-form")[0]);
                     $.ajax({
                         url : "/file/uploading",

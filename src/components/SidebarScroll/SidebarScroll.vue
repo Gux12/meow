@@ -40,7 +40,7 @@
         </main>
         <footer class="bs-docs-footer" role="contentinfo">
             <div class="container">
-                <p>设计来源 <a href="http://v3.bootcss.com/" target="_blank">@bootstrap</a> 制作者 <a href="https://gux12.github.io/" target="_blank">@guxiang</a>。</p>
+                <p>设计来源 <a href="http://v3.bootcss.com/" target="_blank">@bootstrap</a> 制作者 @guxiang @zhangxueheng @nanyixuan @puyudi @xuzhiyong。</p>
             </div>
         </footer>
     </div>
