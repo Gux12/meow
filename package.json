@@ -4,19 +4,28 @@
   "author": "Gux12 <gx199492@qq.com>",
   "private": true,
   "scripts": {
+    "start": "gulp && node bin/www",
     "dev": "webpack-dev-server --inline --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
     "blueimp-file-upload-node": "^2.1.0",
+    "body-parser": "~1.15.1",
     "bootstrap": "^3.3.7",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "^4.14.0",
     "hamburgers": "^0.5.0",
     "holderjs": "^2.9.4",
     "jquery": "^3.1.0",
     "jquery.ui.widget": "^1.10.3",
+    "morgan": "~1.7.0",
+    "multiparty": "^4.1.2",
     "pug": "^2.0.0-beta6",
+    "serve-favicon": "~2.3.0",
     "slideout": "^0.1.12",
     "vue": "^2.0.0-rc.1",
+    "vue-file-upload": "0.0.7",
     "vue-router": "^2.0.0"
   },
   "devDependencies": {
