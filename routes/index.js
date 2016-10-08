@@ -52,4 +52,32 @@ router.get('/getlist', function(req, res, next){
   });
 })
 
+router.get('/getgroupfiles/minutes', function(req, res, next){
+  fs.readdir('./public/Groupfiles/Minutes', (err, files) => {
+    if (err) throw err;
+    res.json(files);
+  });
+})
+
+router.get('/getgroupfiles/ra', function(req, res, next){
+  fs.readdir('./public/Groupfiles/RequirementAnalysis', (err, files) => {
+    if (err) throw err;
+    res.json(files);
+  });
+})
+
+router.get('/getgroupfiles/sd', function(req, res, next){
+  fs.readdir('./public/Groupfiles/SystemDesign', (err, files) => {
+    if (err) throw err;
+    res.json(files);
+  });
+})
+
+router.get('/getgroupfiles/ui', function(req, res, next){
+  fs.readdir('./public/Groupfiles/UI', (err, files) => {
+    if (err) throw err;
+    res.json(files);
+  });
+})
+
 module.exports = router;

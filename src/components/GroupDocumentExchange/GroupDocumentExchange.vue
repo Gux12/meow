@@ -8,11 +8,10 @@
         <form id="gux-fileupload-form" class="form-inline">
             <div class="form-group">
                 <a class="btn btn-success" id="gux-file-a">选择文件<input type="file" name="upfile" multiple id="gux-fileupload-file"/></a>
-                <button class="btn btn-default" id="gux-fileupload-submit-btn">上传</button>
+                <button type="button" class="btn btn-default" id="gux-fileupload-submit-btn">上传</button>
             </div>
-            <div class="form-group">
-                <label class="sr-only" for="gux-filename">filename</label>
-                <input class="form-control" id="gux-filename" disabled placeholder="请选择文件">
+            <div class="form-group" id="gux-filename">
+                请选择文件
             </div>
         </form>
         <table class="table" id="gux-file-table">
@@ -65,26 +64,28 @@
             }
         },
         mounted:function() {
-            $.ajax({
-                url:'/getlist',
-                type: 'get',
-                dataType: 'json',
-                success:function(data){
-                    var i=1;
-                    for (var filename of data) {
-                        $('#gux-file-table').find('tbody').append('<tr><td>'+i+'</td><td>'+filename+'</td><td><a class="btn btn-info" href="/files/'+filename+'">下载</a></td></tr>');
-                        i++;
+            $(document).ready(function () {
+                $.ajax({
+                    url:'/getlist',
+                    type: 'get',
+                    dataType: 'json',
+                    success:function(data){
+                        var i=1;
+                        for (var filename of data) {
+                            $('#gux-file-table').find('tbody').append('<tr><td>'+i+'</td><td>'+filename+'</td><td><a class="btn btn-info" href="/files/'+filename+'">下载</a></td></tr>');
+                            i++;
+                        }
+                    },
+                    error:function(data){
+                        alert('无法访问服务器文件列表！');
                     }
-                },
-                error:function(data){
-                    alert('无法访问服务器文件列表！');
-                }
-            })
+                })
 
-            $("#gux-fileupload-submit-btn").click(()=>{
-                var filename = $(this).find("#gux-fileupload-file").val();
-                if(filename != 'undefine' && filename != ''){
-                    var formData = new FormData($("#gux-fileupload-form")[0]);
+                $("#gux-fileupload-submit-btn").click(function(){
+                    var filename = $("#gux-fileupload-file")[0].value;
+                    console.log(filename);
+                    if(filename != 'undefine' && filename != ''){
+                        var formData = new FormData($("#gux-fileupload-form")[0]);
                     $.ajax({
                         url : "/file/uploading",
                         type : "post",
@@ -102,15 +103,15 @@
                             }
                         },
                     });
-                }else{
-                    console.log($(this).find("#gux-fileupload-file").val());
-                    alert('上传文件不能为空！');
-                }
+                    }else{
+                        alert('上传文件不能为空！');
+                    }
 
-            });
+                });
 
-            $('#gux-fileupload-file').change(function(){
-                $('#gux-filename')[0].value = $(this).val();
+                $('#gux-fileupload-file').change(function(){
+                    $('#gux-filename')[0].innerHTML = this.value;
+                })
             })
         }
     }
