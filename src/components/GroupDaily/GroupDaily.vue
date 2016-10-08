@@ -19,28 +19,28 @@
                             <li data-target="#gux-carousel-example-captions" data-slide-to="3" class="active"></li>
                         </ol>
                         <div class="carousel-inner" role="listbox">
-                           <div class="item active" style="height:640px;overflow:hidden;">
+                           <div class="item active" style="overflow:hidden;">
                                 <img src="./assets/img/WechatIMG4.jpeg" data-holder-rendered="true">
                                 <div class="carousel-caption">
                                     <h3>9月28日 星期三</h3>
                                     <p>今天对需求分析进行了激烈的讨论，并确定了组内分工</p>
                                 </div>
                             </div>
-                            <div class="item" style="height:640px;overflow:hidden;">
+                            <div class="item" style="overflow:hidden;">
                                 <img src="./assets/img/WechatIMG2.jpeg" data-holder-rendered="true">
                                 <div class="carousel-caption">
                                     <h3>9月30日 星期五</h3>
                                     <p>今天对STORY进行分解与描述</p>
                                 </div>
                             </div>
-                            <div class="item" style="height:640px;overflow:hidden;">
+                            <div class="item" style="overflow:hidden;">
                                 <img src="./assets/img/WechatIMG1.jpeg" data-holder-rendered="true">
                                 <div class="carousel-caption">
                                     <h3>9月30日 星期五</h3>
                                     <p>今天确定了Product Backlog</p>
                                 </div>
                             </div>
-                            <div class="item" style="height:640px;overflow:hidden;">
+                            <div class="item" style="overflow:hidden;">
                                 <img src="./assets/img/WechatIMG3.jpeg" data-holder-rendered="true">
                                 <div class="carousel-caption">
                                     <h3>9月30日 星期五</h3>
@@ -62,12 +62,18 @@
             <div role="tabpanel" class="tab-pane" id="profile">
                 <!-- 16:9 aspect ratio -->
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/dKlJdHiqgoo" frameborder="0" allowfullscreen></iframe>
-                </div>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/3rDXVdqnPiw" frameborder="0" allowfullscreen></iframe>
+                </div><br>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/H16nUWsHCTs" frameborder="0" allowfullscreen></iframe>
+                </div><br>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hlGT_WCUbCQ" frameborder="0" allowfullscreen></iframe>
+                </div><br>
             </div>
         </div>
 
-        <h1 id="scrollspy" class="page-header">事件记录</h1>
+        <h1 class="page-header">事件记录</h1>
         <div class="bs-callout bs-callout-info">
             <h4>2003年10月12日</h4>
             <p>利比里亚宣布与中华民国中断外交关系，重新与中华人民共和国建交。</p>
