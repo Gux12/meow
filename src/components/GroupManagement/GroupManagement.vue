@@ -11,15 +11,15 @@
         </div>
         <h4 class="page-header">系统设计</h4>
         <div class="row" id="gux-doc-panel2">
-            <a v-for="filenames in filenames2" class="gux-doc col-md-2 col-sm-4 col-xs-4" :href="dir[1]" target="_blank"><img src="./assets/doc.ico" class="img-responsive" style="margin:0 auto"><p>{{filenames}}</p></a>
+            <a v-for="filenames in filenames2" class="gux-doc col-md-2 col-sm-4 col-xs-4" :href="dir[1] + '/' + filenames" target="_blank"><img src="./assets/doc.ico" class="img-responsive" style="margin:0 auto"><p>{{filenames}}</p></a>
         </div>
         <h4 class="page-header">界面设计</h4>
         <div class="row" id="gux-doc-panel3">
-            <a v-for="filenames in filenames3" class="gux-doc col-md-2 col-sm-4 col-xs-4" :href="dir[2]" target="_blank"><img src="./assets/doc.ico" class="img-responsive" style="margin:0 auto"><p>{{filenames}}</p></a>
+            <a v-for="filenames in filenames3" class="gux-doc col-md-2 col-sm-4 col-xs-4" :href="dir[2] + '/' + filenames" target="_blank"><img src="./assets/doc.ico" class="img-responsive" style="margin:0 auto"><p>{{filenames}}</p></a>
         </div>
         <h4 class="page-header">会议记录</h4>
         <div class="row" id="gux-doc-panel4">
-            <a v-for="filenames in filenames4" class="gux-doc col-md-2 col-sm-4 col-xs-4" :href="dir[3]" target="_blank"><img src="./assets/doc.ico" class="img-responsive" style="margin:0 auto"><p>{{filenames}}</p></a>
+            <a v-for="filenames in filenames4" class="gux-doc col-md-2 col-sm-4 col-xs-4" :href="dir[3] + '/' + filenames" target="_blank"><img src="./assets/doc.ico" class="img-responsive" style="margin:0 auto"><p>{{filenames}}</p></a>
         </div>
 </template>
 <style>
@@ -37,6 +37,14 @@
 <script>
     var $ = window.$ = window.jQuery = require('jquery');
     var bootstrap = require('bootstrap');
+    function index(urls,url) {
+        for(let i=0;i<urls.length;i++){
+            if(urls[i] === url){
+                return i;
+            }
+        }
+        return -1;
+    }
     export default{
         data(){
             return{
@@ -52,19 +60,16 @@
             var urls =["/getgroupfiles/ra","/getgroupfiles/sd","/getgroupfiles/ui","/getgroupfiles/minutes"];
             var dir = ["/Groupfiles/RequirementAnalysis","/Groupfiles/SystemDesign","/Groupfiles/UI","/Groupfiles/Minutes"];
             var fi = this.$data;
-            var i = 1;
-            for (var url of urls){
+            for (let i=0;i<urls.length;i++){
                 $.ajax({
-                    url: url,
+                    url: urls[i],
                     type: 'get',
                     dataType: 'json',
                     success:function(data){
-                        eval('fi.filenames' + i + ' = data');
-                        i++;
+                        eval('fi.filenames' + (i+1) + ' = data');
                     },
                     error:function(data){
                         alert('无法访问服务器文件列表！');
-                        i++;
                     }
                 })
 

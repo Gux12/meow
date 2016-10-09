@@ -1,5 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+// const  App = resolve => require(['./components/SidebarScroll/SidebarScroll.vue'], resolve)
+// const  GroupIntroduction = resolve => require(['./components/GroupIntroduction/GroupIntroduction.vue'], resolve)
+// const  GroupNotice = resolve => require(['./components/GroupNotice/GroupNotice.vue'], resolve)
+// const  GroupDocumentExchange = resolve => require(['./components/GroupDocumentExchange/GroupDocumentExchange.vue'], resolve)
+// const  GroupDaily = resolve => require(['./components/GroupDaily/GroupDaily.vue'], resolve)
+// const  GroupStudy = resolve => require(['./components/GroupStudy/GroupStudy.vue'], resolve)
+// const  GroupManagement = resolve => require(['./components/GroupManagement/GroupManagement.vue'], resolve)
+
 import App from './components/SidebarScroll/SidebarScroll.vue'
 import GroupIntroduction from "./components/GroupIntroduction/GroupIntroduction.vue"
 import GroupNotice from "./components/GroupNotice/GroupNotice.vue"

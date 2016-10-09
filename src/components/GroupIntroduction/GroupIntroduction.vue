@@ -8,7 +8,7 @@
             <p>我们一群富有活力，充满梦想，热爱计算机尤其是软件工程的年轻人。我们追求技术巅峰，挑战思维极限，创意和灵感是我们最宝贵的财富。<br>我们没有非常精湛高超的技术，但我们有刻苦钻研的精神。我们没有庞大的成员阵容，但我们有团结友爱的心。<br>我们取长补短，互帮互助，我们虽然不是什么高手，但我们有着一颗对技术严谨，且好奇的心！</p>
         </div>
         <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-4">
+            <div class="col-xs-10 col-sm-6 col-md-4">
                 <div class="thumbnail">
                     <div class="gux-image-container"><img class="img-responsive img-rounded" src="./assets/collaborations/nanyixuan.jpg" data-holder-rendered="true">
                     </div>
@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-4">
+            <div class="col-xs-10 col-sm-6 col-md-4">
                 <div class="thumbnail">
                     <div class="gux-image-container"><img class="img-responsive" src="./assets/collaborations/guxiang.jpg" data-holder-rendered="true">
                     </div>
@@ -30,7 +30,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-4">
+            <div class="col-xs-10 col-sm-6 col-md-4">
                 <div class="thumbnail">
                     <div class="gux-image-container"><img class="img-responsive" src="./assets/collaborations/puyudi.jpeg" data-holder-rendered="true">
                     </div>
@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-4">
+            <div class="col-xs-10 col-sm-6 col-md-4">
                 <div class="thumbnail">
                     <div class="gux-image-container"><img class="img-responsive" src="./assets/collaborations/zhangxueheng.jpg" data-holder-rendered="true">
                     </div>
@@ -52,7 +52,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-4">
+            <div class="col-xs-10 col-sm-6 col-md-4">
                 <div class="thumbnail">
                     <div class="gux-image-container"><img class="img-responsive" src="./assets/collaborations/xuzhiyong.jpeg" data-holder-rendered="true">
                     </div>

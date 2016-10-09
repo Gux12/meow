@@ -223,9 +223,9 @@
             $('.notice-item').click(function (e) {
                 let name = $(this)[0].getAttribute("data-target");
                 if($(name).css("display") === "none"){
-                    $(name).show(300);
+                    $(name).slideDown(300);
                 }else {
-                    $(name).hide(300);
+                    $(name).slideUp(300);
                 }
             });
         }
