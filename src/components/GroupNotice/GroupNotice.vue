@@ -22,7 +22,7 @@
                     <div class="col-md-6 col-sm-6 col-xs-12"><img src="./img/notice2.jpg" class="xzy-img"></div>
                 </div>
                 <a class="list-group-item notice-item" data-target="#xzy-notice3">
-                    <h4 class="list-group-item-heading">学习W3school相关文档与参考资料 <span class="label label-default">10月3日</span> <span class="label label-danger">重要</span> </h4>
+                    <h4 class="list-group-item-heading">学习W3school相关文档与参考资料 <span class="label label-default">10月3日</span> <span class="label label-info">普通</span> </h4>
                     <p class="list-group-item-text">一大波安利学习资料来袭</p>
                 </a>
                 <div class="panel-body xzy-notice-body" id="xzy-notice3">
@@ -30,7 +30,7 @@
                     <div class="col-md-6 col-sm-6 col-xs-12"><img src="./img/notice3.jpg" class="xzy-img"></div>
                 </div>
                 <a class="list-group-item notice-item" data-target="#xzy-notice4">
-                    <h4 class="list-group-item-heading">tower上项目所需照片和视频已上传 <span class="label label-default">10月1日</span> <span class="label label-danger">重要</span> </h4>
+                    <h4 class="list-group-item-heading">tower上项目所需照片和视频已上传 <span class="label label-default">10月1日</span> <span class="label label-info">普通</span> </h4>
                     <p class="list-group-item-text">福利来袭！照片视频均已上传</p>
                 </a>
                 <div class="panel-body xzy-notice-body" id="xzy-notice4">
@@ -39,7 +39,7 @@
                     <div class="col-md-6 col-sm-6 col-xs-12"><img src="./img/notice4.jpg" class="xzy-img"></div>
                 </div>
                 <a class="list-group-item notice-item" data-target="#xzy-notice5">
-                    <h4 class="list-group-item-heading">课后在教室进行SCRUM探讨与视频拍摄 <span class="label label-default">9月30日</span> <span class="label label-danger">重要</span> </h4>
+                    <h4 class="list-group-item-heading">课后在教室进行SCRUM探讨与视频拍摄 <span class="label label-default">9月30日</span> <span class="label label-warning">通知</span> </h4>
                     <p class="list-group-item-text">课后讨论外加视频拍摄，俊男美女请注意</p>
                 </a>
                 <div class="panel-body xzy-notice-body" id="xzy-notice5">

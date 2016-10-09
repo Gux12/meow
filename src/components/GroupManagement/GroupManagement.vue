@@ -3,7 +3,7 @@
         <h1 class="page-header">项目文档管理</h1>
         <div class="bs-callout bs-callout-warning">
             <h4>小组的项目文档在下面</h4>
-            <p>小组成员而已下载项目文档查看</p>
+            <p>小组成员可以下载项目文档查看</p>
         </div>
         <h4 class="page-header">需求分析</h4>
         <div class="row" id="gux-doc-panel1">

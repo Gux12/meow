@@ -22,29 +22,21 @@
                            <div class="item active" style="overflow:hidden;">
                                 <img src="./assets/img/WechatIMG4.jpeg" data-holder-rendered="true">
                                 <div class="carousel-caption">
-                                    <h3>9月28日 星期三</h3>
-                                    <p>今天对需求分析进行了激烈的讨论，并确定了组内分工</p>
                                 </div>
                             </div>
                             <div class="item" style="overflow:hidden;">
                                 <img src="./assets/img/WechatIMG2.jpeg" data-holder-rendered="true">
                                 <div class="carousel-caption">
-                                    <h3>9月30日 星期五</h3>
-                                    <p>今天对STORY进行分解与描述</p>
                                 </div>
                             </div>
                             <div class="item" style="overflow:hidden;">
                                 <img src="./assets/img/WechatIMG1.jpeg" data-holder-rendered="true">
                                 <div class="carousel-caption">
-                                    <h3>9月30日 星期五</h3>
-                                    <p>今天确定了Product Backlog</p>
                                 </div>
                             </div>
                             <div class="item" style="overflow:hidden;">
                                 <img src="./assets/img/WechatIMG3.jpeg" data-holder-rendered="true">
                                 <div class="carousel-caption">
-                                    <h3>9月30日 星期五</h3>
-                                    <p>今天确定了Product Backlog</p>
                                 </div>
                             </div>
                         </div>
